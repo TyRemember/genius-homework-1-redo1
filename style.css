@@ -1,0 +1,250 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/play-v17-latin-regular.woff2') format('woff2'),
+    url('../fonts/play-v17-latin-regular.ttf') format('truetype');
+}
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/play-v17-latin-700.woff2') format('woff2'),
+    url('../fonts/play-v17-latin-700.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/roboto-v30-latin-900.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin-900.ttf') format('truetype');
+}
+
+:root {
+  --color-brand-light: #2b7fff;
+  --color-primary-dark: #011c44;
+  --color-primary-light: #fff;
+}
+
+body {
+  color: var(--color-primary-dark);
+  font-family: 'Roboto';
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Hero section */
+
+.upperlogo-text {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hero-title {
+  color: var(--color-brand-light);
+  font-family: 'Play';
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 81.429%;
+  text-transform: capitalize;
+}
+
+.hero-text {
+  color: #4a4a4a;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+/* link */
+
+.link {
+  text-decoration: none;
+  color: var(--color-primary-dark);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.link:hover {
+  color: var(--color-brand-light);
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* button */
+.call-button {
+  background-color: transparent;
+  border-radius: 32px;
+  color: var(--color-brand-light);
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.registration-button {
+  background-color: transparent;
+  border-radius: 32px;
+  color: var(--color-brand-light);
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.registration-button:hover {
+  background-color: var(--color-brand-light);
+  color: var(--color-primary-dark);
+}
+.call-button:hover {
+  background-color: var(--color-brand-light);
+  color: var(--color-primary-dark);
+}
+
+/* about-us section */
+
+.about-us-section {
+  color: var(--color-primary-dark);
+  font-family: 'Play';
+  font-size: 64px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.about-us-brand {
+  color: var(--color-brand-light);
+  text-transform: capitalize;
+}
+
+.about-us-text {
+  color: var(--color-primary-dark);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.about-us-accent {
+  font-weight: 600;
+  line-height: 38px;
+  text-transform: capitalize;
+}
+
+.accent {
+  color: var(--color-brand-light);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* recomendations section */
+
+.recomendations-title {
+  color: var(--color-primary-dark);
+  font-family: 'Play';
+  font-size: 64px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-title {
+  color: var(--color-brand-light);
+  font-family: 'Play';
+  font-size: 64px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.recomendations-accent {
+  color: var(--color-brand-light);
+  font-family: 'Play';
+  font-size: 64px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-text {
+  color: #000;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* procedures section */
+
+.procedures-title {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.procedures-text {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+/* contact section */
+.contact-title {
+  color: var(--color-primary-dark);
+  font-family: 'Play';
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.contact-text {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.contact-accent {
+  color: var(--color-brand-light);
+}
+
+.privacypolicy-text {
+  color: #747272;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.privacypolicy-link {
+  color: #747272;
+  text-decoration: none;
+  text-decoration-line: underline;
+}
+
+/* footer */
+
+.footer-link {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+
+.address-copyright {
+  color: #747272;
+  font-size: 13px;
+  font-weight: 400;
+}
